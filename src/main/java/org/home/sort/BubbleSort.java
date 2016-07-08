@@ -13,7 +13,8 @@ public class BubbleSort extends SortAlgorithm {
                             if (unsortedArray[j] > unsortedArray[j + 1]) {
                                 swap(unsortedArray, j, j + 1);
                             }
-                        })
+                        }
+                )
         );
 
         return unsortedArray;
