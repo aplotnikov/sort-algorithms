@@ -16,6 +16,6 @@ class SortAlgorithmTest extends Specification {
         assert actualArray == [1, 4, 5, 7, 8]
 
         where:
-        sortAlgorithm << [new BubbleSort(), new InsertionSort(), new ShellSort()]
+        sortAlgorithm << [new BubbleSort(), new InsertionSort(), new ShellSort(), new SelectionSort()]
     }
 }
