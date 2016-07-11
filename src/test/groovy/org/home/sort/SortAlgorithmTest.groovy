@@ -22,7 +22,8 @@ class SortAlgorithmTest extends Specification {
                 new ShellSort(),
                 new SelectionSort(),
                 new MergeSort(),
-                new HeapSort()
+                new HeapSort(),
+                new QuickSort()
         ]
     }
 }
