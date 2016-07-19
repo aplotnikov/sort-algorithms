@@ -13,7 +13,7 @@ class SortAlgorithmTest extends Specification {
         int[] actualArray = sortAlgorithm.sort(unsortedArray)
 
         then:
-        assert actualArray == [1, 4, 5, 7, 8]
+        actualArray == [1, 4, 5, 7, 8]
 
         where:
         sortAlgorithm << [
